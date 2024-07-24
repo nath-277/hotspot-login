@@ -1,0 +1,96 @@
+body {
+    color: #737373; 
+    font-size: 14px; 
+    font-family: verdana;
+    background-image: url("../images/pexels.jpg");
+}
+.container{
+    width: 55em;
+    height: 700px;
+    background-color: white;
+    margin-top: 10vh;
+    box-shadow: 5px 5px 5px 6px;
+    padding: 15px 20px 25px 20px;
+    border-radius: 5px;
+    overflow: auto;
+}
+.datetime {
+    width: 100%;
+    margin-top: 8px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #da04dab2;;
+}
+.details{
+    margin: auto;
+    width: 100%;
+    display: block;
+}
+#anc_logo{
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+}
+#Login{
+    display: block;
+    margin: auto;
+    width:70%;
+    height: 30px;
+    font-size: 18px;
+}
+h2{
+    font-size: 24px;
+    color: rgb(255, 36, 21);
+    text-align: center;
+}
+ol{
+    font-size: 20px;
+    text-align:left;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+#notice{
+    color: white;
+    background-color: #198754;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 22px;
+    display: block;
+    border: none;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#login{
+    color: white;
+    background-color: #1207a3be;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 22px;
+    display: block;
+    border: none;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#notice2{
+    float: left;
+    margin-left: 4% ;
+    display: block;
+    margin-right: 5%;
+    overflow: auto;
+    margin-bottom: 50PX;
+}
+#login_div{
+    float: left;
+    margin: right;
+    margin-left: 5%;
+}
+table, th, td{
+    border: 1px solid gray;
+    color: black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}

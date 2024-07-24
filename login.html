@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUL Hotspot</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="startTime()">
+    <br><br>
+    <div id="login_div" class="container">
+        <br><br>
+        <img id="anc_logo" src="images/download.png">
+        <br><br><br><br>
+    <div class="details">
+        <form>
+            <input id="Login" type="text" placeholder="Login Username" required>
+            <br><br><br>
+            <input id="Login" type="password" placeholder="Login Password" required>
+        </form>
+    </div>
+    <br><br><br>
+    <button  id="notice">ICT NOTICEBOARD</button>
+    <br>
+    <div class="datetime">
+        <span id="date">24/07/2024</span> - <span id="time">10:15:03 AM</span>
+    </div>
+    <br><br>
+    <div><input id="login" type="submit" value="Login"></div>
+    <h2>N.B: You are limited to 8hrs a day so please endeavour to log out when you're done browsing.</h2>
+    </div>
+    <div id="notice2" class="container">
+        <br>
+        <img id="anc_logo" src="images/download.png">
+        <br><br>
+        <button  id="notice">ICT NOTICEBOARD</button>
+        <br>
+    <h2> 2<sup>nd</sup> Semester Course Registeration</h2>
+    <ol>
+        <li>Registeration for  2<sup>nd</sup> Semester will 
+        comence on 1<sup>st</sup> of May, 2024. Take due 
+        diligence on the Registeration to avoid add and 
+        drop issues.<br></li>
+        <li>Report to Ict any disparencies on the Course 
+        code.<br></li>
+        <li>Remember that login to payment portal is essential 
+        before this registration.<br></li>
+    </ol>
+    <table style="width: 95%;">
+        <tbody>
+        <tr>
+            <th colspan="4" style="background-color: rgb(19, 217, 243);">
+                <h2> ICT Exam Timetable</h2>
+            </th>
+        </tr>
+        <tr>
+            <th style="width: 35%; height: 30PX; ">DAY/DATE</th>
+            <th >8:00am - 9:00am</th>
+            <th>11:00am - 12:00pm</th>
+            <th>2:00pm - 3:00pm</th>
+        </tr>
+        <tr>
+            <th style="height: 30px;">Monday 1<sup>st</sup> July, 2024</th>
+            <td>GST121</td>
+            <td>TMC221</td>
+            <td>TMC411</td>
+        </tr>
+        <tr>
+            <th style="height: 30px;">Tuesday 2<sup>nd</sup> July, 2024</th>
+            <td>GST221</td>
+            <td>TMC121</td>
+            <td>GST222</td>
+        </tr>
+        <tr>
+            <th style="height: 30px;">Wednesday 3<sup>rd</sup> July, 2024</th>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+    <script type="text/javascript">
+    
+        document.login.username.focus();
+      //-->
+       var dt = new Date();
+       document.getElementById("date").innerHTML = dt.toLocaleDateString();
+       function startTime() {
+        var today = new Date();
+        document.getElementById("time").innerHTML = today.toLocaleTimeString()
+        var t = setTimeout(startTime, 500);
+      }
+      </script>
+</body>
+</html>
